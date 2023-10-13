@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title> Olahraga</title>
+</head>
+<style>
+    /* Reset CSS */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header Styles */
+header {
+    
+}
+nav{
+    z-index: 999;
+    width: 100%;
+    position: fixed;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Hero Section Styles */
+.bg {
+    background-image: url('/minggu2/tugas/asset/img/portrait-muscular-man-taking-break-hydrate-his-body-after.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+    color: #ffffff;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #ff5722;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Content Section Styles */
+.content {
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+img{
+    width: 99%;
+}
+
+.article {
+    animation: fadeIn 5s forwards;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.article > p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+}
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+</style>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Beranda</a></li>
+                <li><a href="#">Jadwal</a></li>
+                <li><a href="#">Tentang Kami</a></li>
+                <li><a href="#">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="bg">
+        <h1>Selamat Datang di Situs Olahraga</h1>
+        <p>Temukan informasi terbaru tentang olahraga favorit Anda.</p>
+        <a href="#" class="cta-button">Mulai</a>
+    </section>
+
+    <section class="content">
+        <h2>Artikel Terbaru</h2>
+        <div class="article">
+            <img src="/minggu2/tugas/asset/img/two-bodybuilders-doing-exercises-arms-sports-ground.jpg" alt="Artikel Olahraga 1">
+            <h3>Calisthenics</h3>
+            <p>Calisthenics adalah sebuah jenis latihan fisik yang menggunakan berat tubuh sebagai sumber utama resistensi untuk membangun kekuatan, kekuatan otot, kekuatan inti, kelincahan, dan fleksibilitas. Latihan calisthenics tidak memerlukan alat berat atau peralatan khusus; sebaliknya, mereka mengandalkan gerakan tubuh yang dapat dilakukan tanpa bantuan tambahan. Beberapa contoh latihan calisthenics meliputi pull-up, push-up, sit-up, squat, plank, lunge, dan berbagai variasi lainnya.</p>
+        </div>
+        <div class="article">
+            <img src="/minggu2/tugas/asset/img/close-up-kid-meditating-mat.jpg" alt="Artikel Olahraga 2">
+            <h3>Yoga</h3>
+            <p>Yoga adalah praktik fisik, mental, dan spiritual yang berasal dari India kuno. Praktik yoga telah ada selama ribuan tahun dan menggabungkan serangkaian latihan postur tubuh, pernapasan, meditasi, dan teknik relaksasi. Tujuan utama dari yoga adalah mencapai keseimbangan, kesehatan, dan keselarasan dalam tubuh, pikiran, dan jiwa.
+
+            </p>
+        </div>
+        <div class="article">
+            <img src="/minggu2/tugas/asset/img/low-angle-view-unrecognizable-muscular-build-man-preparing-lifting-barbell-health-club.jpg" alt="Artikel Olahraga 3">
+            <h3>Body Building</h3>
+            <p>Bodybuilding adalah jenis kegiatan fisik yang bertujuan untuk mengembangkan dan memperbesar massa otot tubuh. Ini melibatkan latihan kekuatan yang khusus untuk membangun otot dan mencapai tubuh yang lebih berotot, terdefinisi, dan kuat. Para atlet yang terlibat dalam bodybuilding sering disebut sebagai "bodybuilder."</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Situs Olahraga.</p>
+    </footer>
+</body>
+</html>

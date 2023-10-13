@@ -1,0 +1,25 @@
+h1{
+    color: red;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+p{
+    font-size: 15px;
+    background-color: wheat;
+}
+
+span{
+    color: red;
+}
+.container{
+    width: 100px;
+    height: auto;
+    box-shadow: 10px 13px 0 -1px rgba(0,0,0, 0.5) ;
+}
+#judul1{
+    color: green;
+}
+.content{
+    background-color: antiquewhite;
+}
