@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Biodata</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        section {
+            
+            text-align: center;
+            max-width: 400px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+            background-color: black;
+        }
+        
+
+        h1 {
+            text-align: center;
+            color: white;
+        }
+
+        form {
+            text-align: left;
+        }
+
+        form table {
+            width: 100%;
+            color: white;
+        }
+
+        form button {
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+                @keyframes ombak {
+            0% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-5px);
+            }
+            100% {
+                transform: translateY(0);
+            }
+        } 
+
+        .ombak {
+            display: inline-block;
+            animation: ombak 2s linear infinite;
+        }
+    </style>
+</head>
+<body>
+    <section class="ombak">
+        <h1>Formulir Biodata</h1>
+        <form action="">
+            <table>
+                <tr>
+                    <td>Nama</td>
+                    <td>:</td>
+                    <td><input type="text" placeholder="Ariella risqy maulana"></td>
+                </tr>
+                <tr>
+                    <td>NIM</td>
+                    <td>:</td>
+                    <td><input type="text" placeholder="A11.2022.14035"></td>
+                </tr>
+                <tr>
+                    <td>Jurusan</td>
+                    <td>:</td>
+                    <td><input type="text" placeholder="Teknik Informatika"></td>
+                </tr>
+                <tr>
+                    <td>Fakultas</td>
+                    <td>:</td>
+                    <td>
+                        <style>
+                            select{
+                                width: 4.7cm;
+                            }
+                        </style>
+                        <select name="" id="">
+                            <option value="">Fakultas Ilmu Komputer</option>
+                            <option value="">Fakultas Ilmu Budaya</option>
+                            <option value="">Fakultas Teknik</option>
+                            <option value="">Fakultas Ekonomi Bisnis</option>
+                            <option value="">Fakultas Kesehatan</option>
+                            <option value="">Fakultas Kedokteran</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Angkatan</td>
+                    <td>:</td>
+                    <td><input type="text" placeholder="2022"></td>
+                </tr>
+                <tr>
+                    <td>Jenis Kelamin</td>
+                    <td>:</td>
+                    <td>
+                        <label><input type="checkbox">Pria</label>
+                        <label><input type="checkbox">Wanita</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td>:</td>
+                    <td><input type="text" placeholder="arielsepuhhtml@gmail.com"></td>
+                </tr>
+            </table>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+            <a href="tugas1.html"><button type="button">Biodata</button></a>
+        </form>
+    </section>    
+</body>
+</html>
